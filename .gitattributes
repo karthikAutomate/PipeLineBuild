@@ -1,0 +1,11 @@
+# Normalize all text files to use LF in the repo
+* text=auto
+
+# Java and JS files use LF (Unix style)
+*.java text eol=lf
+*.js text eol=lf
+*.xml text eol=lf
+*.properties text eol=lf
+
+# Treat reports as binary (no line-ending conversion)
+test-output/** binary
