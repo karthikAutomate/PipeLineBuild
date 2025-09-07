@@ -26,6 +26,10 @@ public class TC_001
 		
 		System.out.println(title);
 		
+		String currentUrl = driver.getCurrentUrl();
+		
+		System.out.println(currentUrl);
+		
 		driver.quit();
 	}
 }
